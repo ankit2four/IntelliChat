@@ -7,7 +7,7 @@ import mongo from '../mongo.png';
 import jwt from '../jwt.png';
 import axios from '../axios.png';
 import router from '../router.png';
-import cv from "../cvAnkit.pdf";
+import cv from "../cvAnkit1.pdf";
 import logo from '../logoIntellichat.png';
 
 const AboutUs = ({ isDarkMode }) => {
