@@ -56,8 +56,55 @@ IntelliChat is an AI-powered chat application designed to provide a seamless and
 - **Node.js**: Make sure Node.js is installed on your machine.
 - **MongoDB**: Ensure MongoDB is installed and running.
 
-### Directory Setup
+###  Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/IntelliChat.git
-   cd IntelliChat
+   git clone https://github.com/ankit2four/IntelliChat.git
+   ```
+2. after cloning the repository create directory in your computer:
+   ```bash
+   ../intellichat/
+   ```
+3. setup react app and node.js server:
+   ```bash
+   cd intellichat
+   npx create-react-app frontend
+   mkdir backend
+   cd backend
+   npm init -y
+   npm install express
+   ```
+4. Your directory should look like this containing some setup file:
+   ```bash
+    intellichat/
+   ├── backend/
+   │
+   ├── frontend/
+   
+5. copy all files from backend to your backend directory and frontend to your frontend directory.
+6. Install all the dependancies with below command:
+   ```bash
+   npm install <package_ name>
+   ```
+7. Create a .env file in the backend directory with the following content:
+   ```bash
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret_key
+   OPENAI_API_KEY=your_openai_api_key
+   ```
+8. Setup mongodb and paste your url/string of db to .env file.
+9. run your frontend and backend by following command:
+   ```bash
+   cd frontend
+   npm start
+   ```
+   ```bash
+   cd backend
+   node server.js
+   ```
+Note - In frontend all api is fetched on local host. if you are trying to deploy chnage the IP of api.
+## Developer Info
+   ** Name - Ankit Singh
+   ** Linkedin - [Ankit Singh](https://www.linkedin.com/in/ankit-singh-638733243/)
+   ** Mail - [mail2ankit1234@gmail.com](mailto: mail2ankit1234@gmail.com)
+   
