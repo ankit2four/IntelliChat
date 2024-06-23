@@ -107,4 +107,5 @@ Note - In frontend all api is fetched on local host. if you are trying to deploy
   - **Name** - Ankit Singh
   - **Linkedin** - [Ankit Singh](https://www.linkedin.com/in/ankit-singh-638733243/)
   - **Mail** - mail2ankit1234@gmail.com
+  - [**Resume**](https://github.com/ankit2four/IntelliChat/blob/main/frontend/src/cvAnkit.pdf)
    
