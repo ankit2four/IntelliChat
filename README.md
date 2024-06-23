@@ -104,7 +104,7 @@ IntelliChat is an AI-powered chat application designed to provide a seamless and
    ```
 Note - In frontend all api is fetched on local host. if you are trying to deploy chnage the IP of api.
 ## Developer Info
-  - **Name - Ankit Singh
-  - **Linkedin - [Ankit Singh](https://www.linkedin.com/in/ankit-singh-638733243/)
-  - **Mail - [mail2ankit1234@gmail.com]
+  - **Name** - Ankit Singh
+  - **Linkedin** - [Ankit Singh](https://www.linkedin.com/in/ankit-singh-638733243/)
+  - **Mail** - mail2ankit1234@gmail.com
    
